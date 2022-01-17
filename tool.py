@@ -6,6 +6,8 @@ from urllib.parse import urlencode
 
 st.title("Random Backlog Link Tweeter")
 
+st.write("To use this tool, paste the URL of an XML sitemap (often at `mysite.com/sitemap.xml`). A link with the title of a post will be shown, and clicking it will open a tweet compose page with the title and a link to the post.")
+
 url = st.text_input("sitemap URL")
 
 st.button("Pick Another")
